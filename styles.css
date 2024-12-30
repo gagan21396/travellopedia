@@ -1,0 +1,122 @@
+.hero-section {
+  background: url("philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg") no-repeat
+    center center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+.hero-content {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+.info-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+.info-section .card {
+  border: none;
+  border-radius: 10px;
+}
+.info-section .card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.info-section .card-body {
+  text-align: center;
+}
+.card-img-container {
+overflow: hidden; /* Ensures the image stays within the card's boundaries */
+border-radius: 8px; /* Optional: Adds rounded corners for a clean look */
+}
+
+.card-img-top {
+transition: transform 1.4s ease, box-shadow 3s ease; /* 4-second smooth transition for zoom and shadow effects */
+}
+
+.card-img-top:hover {
+transform: scale(1.1); /* Slight zoom on hover */
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for a polished look */
+}
+.adventure-section .background-image {
+  background: url('ashim-d-silva-pGcqw1ARGyg-unsplash.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh; /* Full screen height */
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.adventure-section h2 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.adventure-section p {
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.adventure-section button {
+  border: 2px solid white;
+  color: white;
+}
+
+.adventure-section button:hover {
+  background-color: white;
+  color: black;
+}
+.testimonial-section {
+  background: url('mitchell-luo-li7LkjxlB40-unsplash.jpg') no-repeat center center;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+.testimonial-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+.testimonial-content {
+  position: relative;
+  z-index: 2;
+}
+.testimonial-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.testimonial-section p {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+.testimonial-carousel {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.section-with-bg {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Push content to the right side */
+  background-image: url('kal-visuals-Bt_J-VvC9-A-unsplash.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 80vh; /* Adjust height as needed */
+  padding: 20px; /* Add some padding around the content */
+  color: #fff; /* Ensure text is readable on the background */
+  position: relative;
+}
+
+.section-with-bg .content {
+  max-width: 400px;
+  text-align: left;
+}
