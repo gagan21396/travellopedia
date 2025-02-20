@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Travelopedia</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/only-logo.png" />
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo d-flex ">
+        <img src="assets/only-logo.png" alt="logo" class="logo me-2" />
+        <a href="#" class="logo">Travellopedia</a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">PACKAGE</a></li>
+      <li><a href="#tour">TOUR</a></li>
+      <li><a href="#package">ABOUT</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+
+  <header id="home">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true"
+      data-bs-interval="2000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <ng-container class="web-view">
+            <img src="assets/web-view/landing-1.png" class="d-block w-100 back-img " alt="Beautiful landscape">
+          </ng-container>
+          <ng-container class="res-view">
+            <img src="assets/responsive-view/landing-1.png" class="d-block w-100 back-img " alt="Beautiful landscape">
+          </ng-container>
+        </div>
+        <div class="carousel-item">
+          <ng-container class="web-view">
+            <img src="assets/web-view/landing-2.png" class="d-block w-100 back-img" alt="Aerial view of a city">
+          </ng-container>
+          <ng-container class="res-view">
+            <img src="assets/responsive-view/landing-2.png" class="d-block w-100 back-img " alt="Beautiful landscape">
+          </ng-container>
+        </div>
+        <div class="carousel-item">
+          <ng-container class="web-view">
+            <img src="assets/web-view/landing-3.png" class="d-block w-100 back-img" alt="Aerial view of a city">
+          </ng-container>
+          <ng-container class="res-view">
+            <img src="assets/responsive-view/landing-3.png" class="d-block w-100 back-img " alt="Beautiful landscape">
+          </ng-container>
+        </div>
+        <div class="carousel-item">
+          <ng-container class="web-view">
+            <img src="assets/web-view/landing-4.png" class="d-block w-100 back-img" alt="Aerial view of a city">
+          </ng-container>
+          <ng-container class="res-view">
+            <img src="assets/responsive-view/landing-4.png" class="d-block w-100 back-img " alt="Beautiful landscape">
+          </ng-container>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <section class="section__container destination__container" id="about">
+    <h2 class="section__header">Popular Destinations</h2>
+    <p class="section__description">
+      Uncover the World's Most Cherished Destinations for an Unforgettable Experience
+    </p>
+    <div class="destination__grid">
+      <div class="destination__card">
+        <img src="assets/popular-destinations/destination-1.png" alt="destination" />
+        <div class="destination__card__details">
+          <div>
+            <h4>Timeless Destination</h4>
+            <p>Kyoto, Japan</p>
+          </div>
+          <div class="destination__rating">
+            <span><i class="ri-star-fill"></i></span>
+            4.8
+          </div>
+        </div>
+      </div>
+
+      <div class="destination__card">
+        <img src="assets/popular-destinations/destination-2.png" alt="destination" />
+        <div class="destination__card__details">
+          <div>
+            <h4>Frozen Wilderness</h4>
+            <p>Antarctica</p>
+          </div>
+          <div class="destination__rating">
+            <span><i class="ri-star-fill"></i></span>
+            5.0
+          </div>
+        </div>
+      </div>
+
+      <div class="destination__card">
+        <img src="assets/popular-destinations/destination-3.png" alt="destination" />
+        <div class="destination__card__details">
+          <div>
+            <h4>Ancient Wonder</h4>
+            <p>Machu Picchu, Peru</p>
+          </div>
+          <div class="destination__rating">
+            <span><i class="ri-star-fill"></i></span>
+            4.9
+          </div>
+        </div>
+      </div>
+
+      <div class="destination__card">
+        <img src="assets/popular-destinations/destination-4.png" alt="destination" />
+        <div class="destination__card__details">
+          <div>
+            <h4>Safari Adventure</h4>
+            <p>Serengeti, Tanzania</p>
+          </div>
+          <div class="destination__rating">
+            <span><i class="ri-star-fill"></i></span>
+            4.8
+          </div>
+        </div>
+      </div>
+
+      <div class="destination__card">
+        <img src="assets/popular-destinations/destination-5.png" alt="destination" />
+        <div class="destination__card__details">
+          <div>
+            <h4>Majestic Waterfalls</h4>
+            <p>Victoria Falls, Zimbabwe</p>
+          </div>
+          <div class="destination__rating">
+            <span><i class="ri-star-fill"></i></span>
+            4.7
+          </div>
+        </div>
+      </div>
+
+      <div class="destination__card">
+        <img src="assets/popular-destinations/destination-6.png" alt="destination" />
+        <div class="destination__card__details">
+          <div>
+            <h4>Exotic Paradise</h4>
+            <p>Zanzibar, Tanzania</p>
+          </div>
+          <div class="destination__rating">
+            <span><i class="ri-star-fill"></i></span>
+            4.6
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <section class="section__container journey__container" id="tour">
+    <h2 class="section__header">Journey To The Sky Made Simple!</h2>
+    <p class="section__description">
+      Effortless Planning for Your Next Adventure
+    </p>
+    <div class="journey__grid">
+      <div class="journey__card">
+        <div class="journey__card__bg">
+          <span><i class="ri-bookmark-3-line"></i></span>
+          <h4>Seamless Booking Process</h4>
+        </div>
+        <div class="journey__card__content">
+          <span><i class="ri-bookmark-3-line"></i></span>
+          <h4>Easy Reservations, One Click Away</h4>
+          <p>
+            From flights and accommodations to activities and transfers,
+            everything you need is available at your fingertips, making travel
+            planning effortless.
+          </p>
+        </div>
+      </div>
+      <div class="journey__card">
+        <div class="journey__card__bg">
+          <span><i class="ri-landscape-fill"></i></span>
+          <h4>Tailored Itineraries</h4>
+        </div>
+        <div class="journey__card__content">
+          <span><i class="ri-landscape-fill"></i></span>
+          <h4>Customized Plans Just for You</h4>
+          <p>
+            Enjoy personalized travel plans designed to match your preferences
+            and interests. Whether you seek adventure or cultural immersion,
+            our tailored itineraries ensure your journey is uniquely yours.
+          </p>
+        </div>
+      </div>
+      <div class="journey__card">
+        <div class="journey__card__bg">
+          <span><i class="ri-map-2-line"></i></span>
+          <h4>Expert Local Insights</h4>
+        </div>
+        <div class="journey__card__content">
+          <span><i class="ri-map-2-line"></i></span>
+          <h4>Insider Tips and Recommendations</h4>
+          <p>
+            We provide curated recommendations for dining, sightseeing, and
+            hidden gems, so you can experience each destination like a local.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container showcase__container" id="package">
+    <div class="showcase__image">
+      <img src="assets/about-us.png" alt="showcase" />
+    </div>
+    <div class="showcase__content">
+      <h4>CREATE YOUR OWN STORY WITH TRAVELLOPEDIA</h4>
+
+      <p>
+        Embark on an unparalleled adventure with Travellopedia,
+        where your travel aspirations come to life. Our goal is
+        to inspire and support your journeys, whether you're drawn
+        to the vibrant pulse of city streets, the tranquil allure
+        of untouched beaches, or the rich history of ancient landmarks.
+        At Travellopedia, we offer expertly crafted destinations and
+        personalized itineraries, designed to match your individual t
+        ravel style.
+      </p>
+      <p>
+        Uncover hidden treasures, immerse in diverse cultures, and
+        craft memories that will last a lifetime. With Travellopedia
+        as your trusted travel partner, exploring the world's wonders
+        has never been more exciting. Our insider knowledge and local
+        tips equip you with everything you need to explore with
+        confidence. From the moment you begin planning until you return
+        home, we are committed to ensuring that your travel experience is
+        smooth, enriching, and unforgettable.
+      </p>
+
+    </div>
+  </section>
+
+  <section class="section__container banner__container">
+    <div class="banner__card">
+      <h4>6+</h4>
+      <p>Years Experience</p>
+    </div>
+    <div class="banner__card">
+      <h4>100%</h4>
+      <p>Customized Trips</p>
+    </div>
+    <div class="banner__card">
+      <h4>4.8</h4>
+      <p>Overall Ratings</p>
+    </div>
+  </section>
+
+  <section class="section__container client__container">
+    <h2 class="section__header">Experienced And Loved By Countless Explorerss</h2>
+    <p class="section__description">
+      Discover the stories of wanderlust and cherished memories through the
+      eyes of our valued clients.
+    </p>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="client__card">
+            <div class="client__content">
+              <div class="client__rating">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-line"></i></span>
+                <span>(4.6)</span>
+              </div>
+              <p>
+                Travellopedia made our Singapore honeymoon unforgettable! Every detail,
+                from tours to dining, was perfectly planned. We explored iconic spots and
+                hidden gems, making it a stress-free, romantic getaway. Highly recommended!
+              </p>
+            </div>
+            <div class="client__details">
+              <img src="assets/review/client-1.png" alt="client" />
+              <div>
+                <h4>Gursimran Kaur</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <div class="client__content">
+              <div class="client__rating">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span>(5)</span>
+              </div>
+              <p>
+                Our boys' trip to Pattaya was epic! Travellopedia organized thrilling
+                activities, fun night-outs. Everything went smoothly, and we
+                discovered some cool hidden spots. Perfect for a group trip! I'm already planning my next
+                adventure with them!
+              </p>
+            </div>
+            <div class="client__details">
+              <img src="assets/review/client-2.png" alt="client" />
+              <div>
+                <h4>Rahul Nair</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <div class="client__content">
+              <div class="client__rating">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+                <span>(4)</span>
+              </div>
+              <p>
+                My solo trip to Baku was amazing, thanks to Travellopedia. They organized
+                great local experiences, suggested the best sights, and made everything
+                seamless. A small transport issue, but overall, an unforgettable and
+                incredible experience!
+              </p>
+            </div>
+            <div class="client__details">
+              <img src="assets/review/client-3.png" alt="client" />
+              <div>
+                <h4>Smriti Srivastava</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <div class="client__content">
+              <div class="client__rating">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-line"></i></span>
+                <span>(4.2)</span>
+              </div>
+              <p>
+                Travellopedia made our Dubai family trip stress-free and exciting!
+                We loved the desert safari, thrilling adventures, and family-friendly
+                activities. They took care of every detail, from transportation to sightseeing,
+                and we had a truly fantastic time!
+              </p>
+            </div>
+            <div class="client__details">
+              <img src="assets/review/client-4.png" alt="client" />
+              <div>
+                <h4>Sandhya Raj</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <footer id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#" class="logo">Travellopedia</a>
+        </div>
+        <p>
+          Explore the world with ease and excitement through our comprehensive
+          travel platform. Your journey begins here, where seamless planning
+          meets unforgettable experiences.
+        </p>
+
+      </div>
+      <div class="footer__col">
+        <h4>Quick Package Links</h4>
+        <div>
+          <a href="assets/package_links/bangkok-2N.pdf" target="_blank">Bangkok (4N)</a>
+        </div>
+        <div>
+          <a href="assets/package_links/dubai-4N.pdf" target="_blank">Dubai (4N)</a>
+        </div>
+        <div>
+          <a href="assets/package_links/phuket-4N.pdf" target="_blank">Phuket (4N)</a>
+        </div>
+        <div>
+          <a href="assets/package_links/singapore-4N.pdf" target="_blank">Singapore (4N)</a>
+        </div>
+        <div>
+          <a href="assets/package_links/sri-lanka-5N.pdf" target="_blank">Sri Lanka (5N)</a>
+        </div>
+        <div>
+          <a href="assets/package_links/vietnam-6N.pdf" target="_blank">Vietnam (6N)</a>
+        </div>
+
+
+
+      </div>
+      <div class="footer__col">
+        <h4>Contact Us</h4>
+        <div class="ri-phone-fill">
+
+
+          <button onclick="showOptions()" class="contact-button">
+            +91-7303603783
+          </button>
+          
+          <div id="popup" class="popup hidden">
+            <div class="popup-content">
+              <button onclick="callNumber()" class="call-button"><div class="ri-cellphone-fill">   Call</div></button> 
+              <button onclick="whatsappNumber()" class="whatsapp-button"><div class="ri-whatsapp-fill">  WhatsApp</div></button>
+              <button onclick="closePopup()" class="cancel-button"><div class="ri-close-circle-line">  Cancel</div></button>
+            </div>
+          </div>
+        </div>
+        <div class="ri-instagram-fill">
+          <a href="https://www.instagram.com/_travellopedia_/" target="_blank">_travellopedia_</i></a>
+        </div>
+        <div class="ri-mail-fill">
+          info@travellopedia.com
+        </div>
+        <div class="ri-map-pin-2-fill">
+          New Delhi, India
+        </div>
+
+      </div>
+      <div class="footer__col">
+        <h4>Subscribe</h4>
+        <form action="">
+          <input type="text" placeholder="Enter your email" />
+          <button class="btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 Travellopedia. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
